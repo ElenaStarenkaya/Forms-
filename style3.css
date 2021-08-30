@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 0 15px grey;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+input[type=text],
+input[type=email] {
+    /* background-color: rgb(228, 226, 226); */
+    width: 212px;
+    box-shadow: 0 0 15px grey;
+   
+}
+
+input[type=submit] {
+    width: 444px;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 0 15px grey;
+    transition: 1s;
+}
+
+input {
+    margin: 10px;
+    padding: 7px;
+    border: none;
+    border-radius: 2em;
+}

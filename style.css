@@ -1,0 +1,57 @@
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+
+form li {
+    margin: 0.5em; /*задаем отступ между полями*/
+}
+
+form {
+    margin: auto;
+    width: 400px;
+    border: 1px solid darkgrey;
+    border-radius: 1.5em;
+    padding: 1em; /*отодвинет кнопку от края бордера*/
+}
+
+textarea {
+    vertical-align: top;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 250px;
+    border: 1px solid rgb(53, 52, 52);
+}
+
+input[id="sendbtn"] {
+    /* display: block; обязательно для того, чтобы можно было прописать margin
+    margin: auto; */
+    width: 256px;
+}
+
+input[type=text], textarea {
+    box-shadow: 0 0 15px grey;
+    border-radius: 2em;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 0 15px grey;
+    transition: 1s;
+}
+
+#sendbtn {
+    border-radius: 1.5em;
+}
